@@ -1,0 +1,34 @@
+﻿This mod takes great inspiration from the community’s Calamity: Tales of the Aquatic addon content.
+
+- Features:
+
+17 new items
+• 3 new tiles
+• 4 weapons
+• 1 lore item
+
+9 new enemies
+• Including 1 new boss
+
+1 new biome and 1 custom subworld
+
+1 new debuff
+
+- Soundtracks:
+
+Helmet by Philémon Weber (Boss theme)
+Ruins of an Ancient Culture by Umplix (Biome theme)
+The Beach Where Dreams Die by Chad Wolfe (currently unused)
+
+
+- References:
+
+Calamity Mod
+Wrath of Gods
+Structure Helper
+Subworld Library
+Luminance
+Calamity Mod Music
+
+
+This is an ongoing project — more content is planned for future updates!

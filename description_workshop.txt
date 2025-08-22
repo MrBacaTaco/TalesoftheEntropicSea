@@ -1,0 +1,48 @@
+﻿[b][h1]Tales of the Entropic Sea[/h1][/b]
+
+This mod takes great inspiration from the community’s [i]Calamity: Tales of the Aquatic[/i] addon content.
+
+[h2]Features[/h2]
+[list]
+[*] 17 new items (including 3 new tiles, 4 weapons, and 1 lore item)
+[*] 9 new enemies (including 1 boss)
+[*] 1 new biome and 1 subworld
+[*] 1 new debuff
+[/list]
+
+[h2]Soundtracks[/h2]
+[list]
+[*] Helmet[/i] by [b]Philémon Weber[/b] – Boss music
+[*] Ruins of an Ancient Culture[/i] by [b]Umplix[/b] – Biome music
+[*] The Beach Where Dreams Die[/i] by [b]Chad Wolfe[/b] – Currently unused
+[/list]
+
+[h2]References[/h2]
+This mod makes use of or references:
+[list]
+[*] Calamity
+[*] Wrath of Gods
+[*] Structure Helper
+[*] Luminance
+[*] Calamity Mod Music
+[*] Subworld Library
+[/list]
+
+[h2]Notes[/h2]
+This is my first Terraria mod, and also my first time coding in C#.
+Because of that:
+[list]
+[*] The code may contain generated content or errors.
+[*] Some features may not fully work in multiplayer.
+[/list]
+Thank you for your understanding!
+
+[h2]Credits[/h2]
+Special thanks to the developers of [b]Calamity[/b], [b]Infernum[/b], and [b]Wrath of Gods[/b] for making their code public.
+I have used some Calamity assets — I hope this is okay.
+
+If you want to use my assets/code or suggest improvements, feel free to do so.
+
+[h2]Links[/h2]
+[b]GitHub (full source code):[/b] [url=https://github.com/MrBacaTaco]https://github.com/MrBacaTaco[/url]
+[b]Patreon (support me):[/b] [url=https://patreon.com/Baca_Taco]https://patreon.com/Baca_Taco[/url]

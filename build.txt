@@ -1,0 +1,11 @@
+displayName = Tales of the Entropic Sea
+author = BacaTaco
+version = 0.3
+modReferences = CalamityMod, NoxusBoss, StructureHelper, SubworldLibrary, Luminance
+
+
+include = Schematics/*.shstruct
+
+include Effects/Shaders/ThalassophobiaShader.fx
+
+

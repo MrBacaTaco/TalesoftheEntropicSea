@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- Import tModLoader mod properties -->
+	<Import Project="..\tModLoader.targets" />
+
+	<PropertyGroup>
+		<!-- Optional: Add properties here -->
+	</PropertyGroup>
+
+	<!-- Remove specific files if needed -->
+	<ItemGroup>
+		<AdditionalFiles Remove="Assets\Buffs\sds.png" />
+		<AdditionalFiles Remove="Assets\Buffs\ThalassophobiaShader.fx" />
+		<AdditionalFiles Remove="Content\Buffs\Thalassophobia.png" />
+		<AdditionalFiles Remove="Content\Items\MonkshoodIcon.png" />
+		<AdditionalFiles Remove="Content\Items\Weapons\AbyssSkylines.png" />
+		<AdditionalFiles Remove="Content\Items\Weapons\KeplerVacuum.png" />
+		<AdditionalFiles Remove="Content\Items\Weapons\NightFractal.png" />
+		<AdditionalFiles Remove="Content\Items\Weapons\Stingray.png" />
+		<AdditionalFiles Remove="Content\Projectiles\Weapons\KeplerVacuumProj.png" />
+		<AdditionalFiles Remove="Content\Projectiles\Weapons\NightFractalBeam.png" />
+		<AdditionalFiles Remove="Content\Projectiles\Weapons\NightFractalPrism.png" />
+		<AdditionalFiles Remove="Content\Projectiles\Weapons\StingrayProjectile.png" />
+		<AdditionalFiles Remove="Content\Tiles\Monkshood.png" />
+		<AdditionalFiles Remove="Content\Tiles\PurpleWisteriaTree1.png" />
+		<AdditionalFiles Remove="Content\Tiles\PurpleWisteriaTree3.png" />
+		<AdditionalFiles Remove="Content\World\SkyAbyssClose.png" />
+		<AdditionalFiles Remove="Content\World\SkyAbyssFar.png" />
+		<AdditionalFiles Remove="Content\World\SkyAbyssMedium.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Include="Effects\Shaders\ThalassophobiaShader.fx">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<None Remove="Schematics\ShyAbyss.csch" />
+		<None Remove="Schematics\SkyAbyss.csch" />
+	</ItemGroup>
+
+	<!-- ✅ All images included as content -->
+	<ItemGroup>
+		<Content Include="Content\Items\MonkshoodIcon.png" />
+		<Content Include="Content\Items\Weapons\AbyssSkylines.png" />
+		<Content Include="Content\Items\Weapons\KeplerVacuum.png" />
+		<Content Include="Content\Items\Weapons\NightFractal.png" />
+		<Content Include="Content\Items\Weapons\Stingray.png" />
+		<Content Include="Content\Projectiles\Weapons\KeplerVacuumProj.png" />
+		<Content Include="Content\Projectiles\Weapons\NightFractalPrism.png" />
+		<Content Include="Content\Projectiles\Weapons\NightFractalBeam.png" />
+		<Content Include="Content\Projectiles\Weapons\StingrayProjectile.png" />
+		<Content Include="Content\Tiles\Monkshood.png" />
+		<Content Include="Content\Tiles\PurpleWisteriaTree1.png" />
+		<Content Include="Content\Tiles\PurpleWisteriaTree3.png" />
+		<Content Include="Content\Projectiles\Heart\EidolonHead.png" />
+		<Content Include="Content\Projectiles\Heart\EidolonBody.png" />
+
+	</ItemGroup>
+
+	<!-- ✅ ✅ ✅ ADD THIS: Include your schematic file -->
+	<ItemGroup>
+		<Content Include="Schematics\SkyAbyss.shstruct">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Content\World\SkyAbyssIslandsGen.cs">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Effects\Shaders\SkyAbyssScreenFilter.fx">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Common\Systems\" />
+	</ItemGroup>
+
+
+
+
+</Project>
