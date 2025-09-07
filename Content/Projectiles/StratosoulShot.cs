@@ -16,8 +16,8 @@ namespace TalesoftheEntropicSea.Content.Projectiles
 
         public override void SetDefaults()
         {
-            Projectile.width = 32;
-            Projectile.height = 32;
+            Projectile.width = 50;
+            Projectile.height = 56;
             Projectile.aiStyle = 1; 
             AIType = ProjectileID.Bullet;
             Projectile.friendly = false;

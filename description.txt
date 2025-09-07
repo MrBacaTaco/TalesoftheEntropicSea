@@ -2,7 +2,7 @@
 
 - Features:
 
-17 new items
+20 new items
 • 3 new tiles
 • 4 weapons
 • 1 lore item

@@ -10,7 +10,7 @@ namespace TalesoftheEntropicSea.Content.NPCs
     {
         public override void SetDefaults()
         {
-            NPC.width = 106;
+            NPC.width = 140;
             NPC.height = 144;
             NPC.damage = 100;
             NPC.defense = 250;

@@ -4,7 +4,7 @@ This mod takes great inspiration from the community’s [i]Calamity: Tales of th
 
 [h2]Features[/h2]
 [list]
-[*] 17 new items (including 3 new tiles, 4 weapons, and 1 lore item)
+[*] 20 new items (including 3 new tiles, 4 weapons, and 1 lore item)
 [*] 9 new enemies (including 1 boss)
 [*] 1 new biome and 1 subworld
 [*] 1 new debuff
@@ -32,14 +32,14 @@ This mod makes use of or references:
 This is my first Terraria mod, and also my first time coding in C#.
 Because of that:
 [list]
-[*] The code may contain generated content or errors.
+[*] The code may contain errors.
 [*] Some features may not fully work in multiplayer.
 [/list]
 Thank you for your understanding!
 
 [h2]Credits[/h2]
 Special thanks to the developers of [b]Calamity[/b], [b]Infernum[/b], and [b]Wrath of Gods[/b] for making their code public.
-I have used some Calamity assets — I hope this is okay.
+I have used some Calamity sounds — I hope this is okay.
 
 If you want to use my assets/code or suggest improvements, feel free to do so.
 

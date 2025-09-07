@@ -36,7 +36,7 @@ namespace TalesoftheEntropicSea.Content.Projectiles.Weapons
 
         public override void SetDefaults()
         {
-            Projectile.Size = new Vector2(112, 116); 
+            Projectile.Size = new Vector2(92, 90); 
             Projectile.friendly = true;
             Projectile.penetrate = -1;
             Projectile.tileCollide = false;

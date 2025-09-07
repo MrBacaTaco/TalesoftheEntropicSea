@@ -1,6 +1,6 @@
 displayName = Tales of the Entropic Sea
 author = BacaTaco
-version = 0.3
+version = 0.4
 modReferences = CalamityMod, NoxusBoss, StructureHelper, SubworldLibrary, Luminance
 
 

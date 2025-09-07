@@ -111,6 +111,21 @@ Items: {
 		DisplayName: Suspicious Trident
 		Tooltip: Summons Glaucus Atlanticus in the Sky Abyss Biome
 	}
+
+	SkyAbyssMusicBox: {
+		DisplayName: Sky Abyss Music Box
+		Tooltip: ""
+	}
+
+	EpilogueMusicBox: {
+		DisplayName: Epilogue Music Box
+		Tooltip: ""
+	}
+
+	HeartOfTheOceanMusicBox: {
+		Tooltip: ""
+		DisplayName: Heart Of The Ocean Music Box
+	}
 }
 
 Projectiles: {
